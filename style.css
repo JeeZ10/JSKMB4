@@ -12,7 +12,7 @@
     height: 40px;
 }
 .JeeZ-calkulator .outputBlock .invisible {
-    
+    display: none;
 }
 
 .JeeZ-calkulator .operation-block input {

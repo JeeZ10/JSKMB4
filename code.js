@@ -69,10 +69,10 @@
 
 
 // var dispVal = document.calc.disp.value;   --ВОпрос, почему не могу присвоить в переменную такое значение? 1-й инпут не принимает значение names и znach в dispVal.
-var operationVal = document.calc.operation.value;
-var pamyatVal = document.calc.pamyat.value;
-var pamyat = document.getElementById('pamyat');
-var operation = document.getElementById('operation');
+ operationVal = document.calc.operation.value;
+ pamyatVal = document.calc.pamyat.value;
+ pamyat = document.getElementById('pamyat');
+ operation = document.getElementById('operation');
 
 function raschet(names) {
     pole = document.calc.disp.value;
