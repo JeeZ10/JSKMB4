@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="JeeZ-calkulator">
+
+    <form action="" name="calc">
+        <div class="outputBlock">
+
+
+            <input type="text" name="disp" id="disp" value="0">
+            <input id="operation" type="text" name="operation" class="invisible" value="0" />
+            <input id="pamyat" type="text" name="pamyat" class="invisible" value="0" />
+
+        </div>
+
+        <div class="operation-block">
+            <input type="button" id="buttonClean" onclick="sbros();" name="clean" value="c" class="first-line"></input>
+            <input type="button" id="buttonDevide" onclick="znak(this.value);" name="devide" value="/" class="first-line"></input>
+
+            <input type="button" class="numbers" id="button7" onclick="raschet(this.value);" name="seven" value="7"></input>
+            <input type="button" class="numbers" id="button8" onclick="raschet(this.value);" name="eight" value="8"></input>
+            <input type="button" class="numbers" id="button9" onclick="raschet(this.value);" name="nine" value="9"></input>
+            <input type="button" id="buttonMultiply" onclick="znak(this.value);" name="multiply" value="*"></input>
+
+            <input type="button" class="numbers" id="button4" onclick="raschet(this.value);" name="four" value="4"></input>
+            <input type="button" class="numbers" id="button5" onclick="raschet(this.value);" name="five" value="5"></input>
+            <input type="button" class="numbers" id="button6" onclick="raschet(this.value);" name="six" value="6"></input>
+            <input type="button" id="buttonMinus" onclick="znak(this.value);" name="minus" value="-"></input>
+
+            <input type="button" class="numbers" id="button1" onclick="raschet(this.value);" name="one" value="1"></input>
+            <input type="button" class="numbers" id="button2" onclick="raschet(this.value);" name="two" value="2"></input>
+            <input type="button" class="numbers" id="button3" onclick="raschet(this.value);" name="three" value="3"></input>
+            <input type="button" class="numbers" id="buttonPlus" onclick="znak(this.value);" name="clean" value="+"></input>
+
+            <input type="button" id="buttonPlusMinus" name="plusMinus" value="+-"></input>
+            <input type="button" class="numbers" id="button0" onclick="raschet(this.value);" name="zero" value="0"></input>
+            <input type="button" id="buttonDot" name="dot" value="."></input>
+            <input type="button" id="buttonReslut" onclick="ravno();" name="result" value="="></input>
+        </div>
+    </form>
+
+</div>
+
+<script src="code.js"></script>

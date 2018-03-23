@@ -1,0 +1,27 @@
+.JeeZ-calkulator {
+    width: 215px;
+    text-align: center;
+    margin: 0 auto;
+    height: 240px;
+    border: 1px solid black;
+    
+}
+
+.JeeZ-calkulator .outputBlock input {
+    width: 215px;
+    height: 40px;
+}
+.JeeZ-calkulator .outputBlock .invisible {
+    
+}
+
+.JeeZ-calkulator .operation-block input {
+    width: 50px;
+    height: 40px;
+}
+
+.JeeZ-calkulator .operation-block .first-line {
+    width: 105px;
+}
+
+ 
